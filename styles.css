@@ -1,0 +1,128 @@
+*{
+  font-family: sans-serif;
+}
+
+.title{
+  margin-top: -20px;
+  text-align: center;
+  background-color: #2B0079;
+  color: white;
+  width: 100%;
+  border-radius: 15px;
+  height: 66px;
+  font-size: 20px;
+}
+
+.title:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3{
+  margin-top: -1.5%;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  margin: auto;
+  text-align: center;
+  width: 33%;
+  margin-top: .15%;
+}
+
+.scientificMethod{
+  background-color: #F8AA1A;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.scientificMethod:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.noteTaker{
+  background-color: #07A5C8;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.noteTaker:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hallOfFame{
+  background-color: #179848;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.hallOfFame:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stemResources{
+  background-color: #964B9D;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.stemResources:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stemNews{
+  background-color: #F8AA1A;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.stemNews:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.classroomHighlights{
+  background-color: #07A5C8;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.classroomHighlights:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.funLinks{
+  background-color: #179848;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.funLinks:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.theArchives{
+  background-color: #964B9D;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2%;
+}
+
+.theArchives:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
