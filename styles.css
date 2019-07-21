@@ -1,33 +1,33 @@
 *{
   font-family: sans-serif;
+  margin: 0px;
 }
 
 body {
-  background-color: #FFFFFF;
+  background-image: url('/System/Volumes/Data/Users/madainn/Library/CloudStorage/iCloud Drive/Desktop/STEM_Site/assets/breakthroughSTEM.png');
+  background-size: contain;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .title{
-  margin-top: -1px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   background-color: #2B0079;
   color: white;
   width: 100%;
-  border-radius: 15px;
   height: 66px;
   font-size: 20px;
+  height: 4rem;
+  position: absolute;
+  top: 0;
 }
 
 .title:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.mainTitle{
-  margin-top: 0px;
-}
-.subTitle{
-  margin-top: -1.5%;
 }
 
 .buttons{
@@ -37,7 +37,8 @@ body {
   margin: auto;
   text-align: center;
   width: 33%;
-  margin-top: .15%;
+  margin-top: 60px;
+
 }
 
 .scientificMethod{
@@ -47,6 +48,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .scientificMethod:hover {
@@ -60,6 +65,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .noteTaker:hover {
@@ -73,6 +82,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hallOfFame:hover {
@@ -86,6 +99,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stemResources:hover {
@@ -99,6 +116,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stemNews:hover {
@@ -112,6 +133,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .classroomHighlights:hover {
@@ -125,6 +150,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .funLinks:hover {
@@ -138,6 +167,10 @@ body {
   color: white;
   margin: 2%;
   text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .theArchives:hover {
@@ -151,10 +184,11 @@ body {
   text-align: center;
   background-color: #2B0079;
   color: white;
-  width: 100%;
-  border-radius: 15px;
-  height: 66px;
   font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
 }
 
 .footer:hover {
