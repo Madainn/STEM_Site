@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: #c5b9da;
   background-image: url('assets/breakthroughSTEM.png');
   background-size: contain;
   background-position: bottom;
@@ -40,7 +41,6 @@ body {
   text-align: center;
   width: 33%;
   margin-top: 60px;
-
 }
 
 .scientificMethod{
@@ -54,10 +54,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .scientificMethod:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .noteTaker{
@@ -71,6 +73,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .noteTaker:hover {
@@ -88,6 +92,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hallOfFame:hover {
@@ -105,6 +111,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .stemResources:hover {
@@ -122,6 +130,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .stemNews:hover {
@@ -139,6 +149,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .classroomHighlights:hover {
@@ -156,6 +168,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .funLinks:hover {
@@ -173,6 +187,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px #2B0079;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .theArchives:hover {
@@ -182,11 +198,11 @@ body {
 .footer{
   margin-top: 0px;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: column-reverse;
+  text-align: right;
   background-color: #2B0079;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
   position: absolute;
   bottom: 0;
   width: 100%;
