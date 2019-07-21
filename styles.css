@@ -4,11 +4,13 @@
 }
 
 body {
-  background-image: url('/System/Volumes/Data/Users/madainn/Library/CloudStorage/iCloud Drive/Desktop/STEM_Site/assets/breakthroughSTEM.png');
+  background-image: url('assets/breakthroughSTEM.png');
   background-size: contain;
   background-position: bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  width: auto;
+  height: auto;
 }
 
 .title{
