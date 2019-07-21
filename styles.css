@@ -3,7 +3,9 @@
 }
 
 .title{
-  margin-top: -20px;
+  margin-top: -1px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: #2B0079;
   color: white;
@@ -17,7 +19,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h3{
+.mainTitle{
+  margin-top: 0px;
+}
+.subTitle{
   margin-top: -1.5%;
 }
 
@@ -124,5 +129,22 @@ h3{
 }
 
 .theArchives:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #2B0079;
+  color: white;
+  width: 100%;
+  border-radius: 15px;
+  height: 66px;
+  font-size: 20px;
+}
+
+.footer:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
