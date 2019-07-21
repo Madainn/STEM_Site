@@ -59,6 +59,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .noteTaker:hover {
@@ -71,6 +72,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .hallOfFame:hover {
@@ -83,6 +85,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .stemResources:hover {
@@ -95,6 +98,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .stemNews:hover {
@@ -107,6 +111,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .classroomHighlights:hover {
@@ -119,6 +124,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .funLinks:hover {
@@ -131,6 +137,7 @@ body {
   border-radius: 15px;
   color: white;
   margin: 2%;
+  text-decoration: none;
 }
 
 .theArchives:hover {
