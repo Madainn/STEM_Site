@@ -26,6 +26,7 @@ body {
   font-size: 20px;
   height: 4rem;
   top: 0;
+  position: fixed;
 }
 
 
@@ -40,11 +41,14 @@ nav{
   background-color: #512E91;
   width: 100%;
   color: white;
+  position: fixed;
+  top: 4rem;
 }
 
 .home, .scientificMethod, .noteTaker, .hallOfFame, .stemResources, .stemNews, .classroomHighlights, .funLinks, .theArchives {
   width: 11.11%;
   text-align: center;
+  align-items: center;
 }
 
 .noteTaker{
@@ -67,6 +71,67 @@ nav{
   background-color: #964B9D;
 }
 /* END NAV BAR */
+
+.step-one-notes{
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+  border: solid 3px #2B0079;
+  border-radius: 10px;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.myNotes{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 2%;
+}
+#inputOne{
+  border: white;
+  padding: 1%;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#add{
+  width: 33%;
+  margin: auto;
+  justify-content: center;
+  background-color: #2B0079;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#notesOne{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #notesOne, #notesOne * {
+    visibility: visible;
+  }
+  #notesOne {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
 .footer{
   margin-top: 0px;
   display: flex;
@@ -75,10 +140,10 @@ nav{
   background-color: #2B0079;
   color: white;
   font-size: 12px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 4rem;
+  height: 2rem;
 }
 
 .footer:hover {
