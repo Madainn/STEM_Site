@@ -47,27 +47,32 @@ nav{
   text-align: center;
 }
 
-.scientificMethod{
+/* EXPERIMENTING  */
+
+
+
+/* EXPERIMENTING */
+
+.theArchives{
   background-color: #2B0079;
 }
 
-.home, .stemNews{
+.home, .stemResources{
   background-color: #F8AA1A;
 }
 
-.noteTaker, .classroomHighlights {
+.scientificMethod, .stemNews {
   background-color: #07A5C8;
 }
 
-.hallOfFame, .funLinks {
+.noteTaker, .classroomHighlights {
   background-color: #179848;
 }
 
-.stemResources, .theArchives {
+.hallOfFame, .funLinks {
   background-color: #964B9D;
 }
 /* END NAV BAR */
-
 .footer{
   margin-top: 0px;
   display: flex;

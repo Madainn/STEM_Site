@@ -47,7 +47,7 @@ nav{
   text-align: center;
 }
 
-.scientificMethod{
+.stemResources{
   background-color: #2B0079;
 }
 
@@ -55,19 +55,18 @@ nav{
   background-color: #F8AA1A;
 }
 
-.noteTaker, .classroomHighlights {
+.scientificMethod, .classroomHighlights {
   background-color: #07A5C8;
 }
 
-.hallOfFame, .funLinks {
+.noteTaker, .funLinks {
   background-color: #179848;
 }
 
-.stemResources, .theArchives {
+.hallOfFame, .theArchives {
   background-color: #964B9D;
 }
 /* END NAV BAR */
-
 .footer{
   margin-top: 0px;
   display: flex;
