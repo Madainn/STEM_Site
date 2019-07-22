@@ -29,10 +29,6 @@ body {
   top: 0;
 }
 
-.title:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .buttons{
   display: flex;
   flex-direction: column;
@@ -59,7 +55,7 @@ body {
 }
 
 .scientificMethod:hover {
-
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .noteTaker{
@@ -78,7 +74,7 @@ body {
 }
 
 .noteTaker:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .hallOfFame{
@@ -97,7 +93,7 @@ body {
 }
 
 .hallOfFame:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .stemResources{
@@ -116,7 +112,7 @@ body {
 }
 
 .stemResources:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .stemNews{
@@ -135,7 +131,7 @@ body {
 }
 
 .stemNews:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .classroomHighlights{
@@ -154,7 +150,7 @@ body {
 }
 
 .classroomHighlights:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .funLinks{
@@ -173,7 +169,7 @@ body {
 }
 
 .funLinks:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .theArchives{
@@ -192,7 +188,7 @@ body {
 }
 
 .theArchives:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
 }
 
 .footer{
