@@ -73,23 +73,25 @@ nav{
 .sciMethod{
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 66%;
+  color: white;
+  margin-bottom: 6%;
+}
+.stepOne{
+  margin-top: 15%;
+  background-color: #044B5B;
   border: solid 3px #2B0079;
   border-radius: 10px;
   padding: 1%;
-  background-color: #6E3773;
-  color: white;
 }
-
 .titleline{
   display: flex;
   flex-direction: row;
   height: 3rem;
-  margin-bottom: 2%;
+  margin-bottom: .5%;
 }
 #one{
   display: flex;
@@ -103,19 +105,59 @@ nav{
   width: 22%;
   border-radius: 10px;
   margin-top: -4.2%;
-  margin-left: -1.88%;
+  margin-left: -1.3%;
   height: 3rem;
 }
-
 #two{
   font-size: 2rem;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
+}
+#instructions, #example {
+  margin-bottom: 1%;
+}
+.stepTwo{
+  margin-top: 6%;
+  background-color: #056A80;
+  border: solid 3px #2B0079;
+  border-radius: 10px;
+  padding: 1%;
+}
+.stepThree{
+  margin-top: 6%;
+  background-color: #0688A4;
+  border: solid 3px #2B0079;
+  border-radius: 10px;
+  padding: 1%;
+}
+.stepFour{
+  margin-top: 6%;
+  background-color: #07A5C8;
+  border: solid 3px #2B0079;
+  border-radius: 10px;
+  padding: 1%;
+}
+.stepFive{
+  margin-top: 6%;
+  background-color: #34B5D2;
+  border: solid 3px #2B0079;
+  border-radius: 10px;
+  padding: 1%;
+}
+.stepSix{
+  margin-top: 6%;
+  background-color: #61C5DC;
+  border: solid 3px #2B0079;
+  border-radius: 10px;
+  padding: 1%;
 }
 
+
+
+
+/* FOOTER */
 .footer{
   margin-top: 0px;
   display: flex;
