@@ -97,13 +97,17 @@ nav{
   right: 20px;
   margin-left: 20px;
   max-width: 300px;
+  border: 3px #964B9D solid;
+  border-radius: 19px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 /* Callout header */
 .callout-header {
-  padding: 3% 3%;
+  padding: 2% 2%;
   text-align: center;
-  background: #2B0079;
+  background: #964B9D;
   font-size: 30px;
   color: white;
   border-top-left-radius: 15px;
@@ -112,10 +116,10 @@ nav{
 
 /* Callout container/body */
 .callout-container {
-  padding: 3%;
+  padding: 2%;
   text-align: center;
-  background-color: #fff;
-  color: black;
+  background: #964B9D;
+  color: white;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -134,7 +138,7 @@ nav{
 }
 
 .itsablackthang{
-  color: blue;
+  color: lightblue;
   text-decoration: underline;
 }
 
