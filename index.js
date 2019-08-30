@@ -1,1 +1,1 @@
-alert("HI! Thank you for visiting! This website is still VERY much under construction! I am coding it from scratch as a passion project, so it will take awhile to get all of the pages populated! Check back regularly if you're looking forward to a specific part of the site!")
+alert("HI! Thank you for visiting! Many parts of this website are still VERY much under construction! Check back regularly if you're looking forward to a specific part of the site!")
