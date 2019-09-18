@@ -70,6 +70,39 @@ nav{
   background-color: #964B9D;
 }
 /* END NAV BAR */
+
+.tracepics{
+  margin-top: 2%;
+  margin-bottom: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+    border-width: thick;
+  /* display: flex; */
+}
+img{
+  width: 25%
+}
+
+.trace{
+  display: flex;
+  width: 90%;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.description{
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  flex-direction: row;
+  margin-top: 2%;
+  padding: 1%;
+  border-color: white;
+}
+.catTrace, .purpleCat, .trTrace{
+  padding: 1%;
+}
+
 .footer{
   margin-top: 0px;
   display: flex;
